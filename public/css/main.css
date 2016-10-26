@@ -1,0 +1,45 @@
+html, body {
+  background-color: #418BCB;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-family: Lato; }
+  html .container, body .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    html .container .formwrap, body .container .formwrap {
+      overflow: hidden; }
+      html .container .formwrap h3, body .container .formwrap h3 {
+        margin-bottom: 25px; }
+      html .container .formwrap .btn-shorten, body .container .formwrap .btn-shorten {
+        background-color: #ff840d;
+        border: none;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        transition: all 0.4s; }
+      html .container .formwrap .btn-shorten:hover,
+      html .container .formwrap .btn-shorten:focus,
+      html .container .formwrap .btn-shorten:active,
+      html .container .formwrap .btn-shorten.active, body .container .formwrap .btn-shorten:hover,
+      body .container .formwrap .btn-shorten:focus,
+      body .container .formwrap .btn-shorten:active,
+      body .container .formwrap .btn-shorten.active {
+        color: #fff;
+        background-color: #B05B09;
+        border: none; }
+      html .container .formwrap #link, body .container .formwrap #link {
+        padding-top: 15px;
+        font-size: x-large; }
+      html .container .formwrap #link a, body .container .formwrap #link a {
+  color: #ff840d; }
+      html .container .formwrap #link a:hover, body .container .formwrap #link a:hover {
+  color: #B05B09; }
+
+/*# sourceMappingURL=main.css.map */

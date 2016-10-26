@@ -1,0 +1,55 @@
+@import 'bourbon';
+
+html,body {
+	background-color: #418BCB;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-family: Lato;
+
+	.container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		@include transform(translate(-50%,-50%));
+
+		.formwrap {
+			overflow: hidden;
+
+			h3 {
+				margin-bottom: 25px;
+			}
+
+			.btn-shorten {
+				background-color: rgba(255, 132, 13, 1);
+				border: none;
+				@include transition(all 0.4s);
+			}
+
+
+			.btn-shorten:hover,
+			.btn-shorten:focus,
+			.btn-shorten:active,
+			.btn-shorten.active {
+				color: #fff;
+				background-color: #B05B09;
+				border: none;
+			}
+
+			#link {
+				padding-top: 15px;
+				font-size: x-large;
+			}
+
+			#link a {
+				color: rgba(255, 132, 13, 1);
+			}
+
+			#link a:hover {
+				color: #B05B09;
+			}
+
+		}
+	}
+}
